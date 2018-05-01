@@ -1,0 +1,8 @@
+<?php
+$con = mysqli_connect("localhost", "root", "","okay");
+if ($con ===true){ //these line of code checks if it's been connected to your database 
+echo "connected to database"; //if connected, it shows this line of message
+}else{
+echo "Not connected to Database"; //if not, it displays this
+}
+?>
